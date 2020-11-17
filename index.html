@@ -7,6 +7,9 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | Fylo landing page with dark theme and features grid</title>
+  
+  <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="css/brands.css" /> 
   <link rel="stylesheet" href="css/all.css" />
@@ -28,18 +31,18 @@
       <a href="#" class="brand"><img src="images/logo.svg" alt="brand logo"/></a>
       <nav class="nav">
         <ul class="nav-wrapper">
-          <li><a href="#">Features</a></li>
-          <li><a href="#">Team</a></li>
-          <li><a href="#">Sign In</a></li>
+          <li class="nav-item"><a href="#">Features</a></li>
+          <li class="nav-item"><a href="#">Team</a></li>
+          <li class="nav-item"><a href="#">Sign In</a></li>
         </ul>
       </nav>
     </div>
 
-    <div class="hero">
-      <img src="images/illustration-intro.png" alt="illustration intro" class="hero-image" />
+    <div class="hero-area">
+      <img src="images/illustration-intro.png" alt="illustration intro" class="hero-area_image" />
       <h1>All your files in one secure location, accessible anywhere.</h1>
       <p>Fylo stores all your most important files in one secure location. Access them wherever you need, share and collaborate with friends, family and co-workers.</p>
-      <button class="hero-button">Get started</button>
+      <button class="hero-area_button">Get started</button>
     </div>
 
     <div class="content">
@@ -116,48 +119,47 @@
         <input type="submit" name="submit" value="Get started for free" />
       </form>
     </div>
-  </div>
 
-  <div class="footer-area">
-    <div class="footer-content">
-      <img src="images/logo.svg" alt="logo" />
-      <div class="footer-content_location">
-        <img src="images/icon-location.svg" alt="location" />
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore magna aliqua</p>
+    <div class="footer-area">
+      <div class="footer-content">
+        <img src="images/logo.svg" alt="logo" />
+        <div class="footer-content_location">
+          <img src="images/icon-location.svg" alt="location" />
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore magna aliqua</p>
+        </div>
       </div>
-    </div>
-    <div class="footer-content">
-      <div class="footer-content_mobile">
-        <img src="images/icon-phone.svg" alt="icon-phone" />
-        <p>+1-543-123-4567</p>
+      <div class="footer-content">
+        <div class="footer-content_mobile">
+          <img src="images/icon-phone.svg" alt="icon-phone" />
+          <p>+1-543-123-4567</p>
+        </div>
+        <div class="footer-content_email">
+          <img src="images/icon-email.svg" alt="icon-email" />
+          <p>example@fylo.com</p>
+        </div>
       </div>
-      <div class="footer-content_email">
-        <img src="images/icon-email.svg" alt="icon-email"/>
-        <p>example@fylo.com</p>
+      <div class="footer-content">
+        <ul class="footer-content_info_links">
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Jobs</a></li>
+          <li><a href="#">Press</a></li>
+          <li><a href="#">Blog</a></li>
+        </ul>
       </div>
-    </div>
-    <div class="footer-content">
-      <ul class="footer-content_info_links">
-        <li><a href="#">About Us</a></li>
-        <li><a href="#">Jobs</a></li>
-        <li><a href="#">Press</a></li>
-        <li><a href="#">Blog</a></li>
-      </ul>
-    </div>
-    <div class="footer-content">
-      <ul class="footer-content_info_links">
-        <li><a href="#">Contact Us</a></li>
-        <li><a href="#">Terms</a></li>
-        <li><a href="#">Privacy</a></li>
-      </ul>
-    </div>
-    <div class="footer-content">
-      <i class="fab fa-facebook"></i>
-      <i class="fab fa-twitter-square"></i>
-      <i class="fab fa-instagram-square"></i>
-    </div>
+      <div class="footer-content">
+        <ul class="footer-content_info_links">
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">Terms</a></li>
+          <li><a href="#">Privacy</a></li>
+        </ul>
+      </div>
+      <div class="footer-content">
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-twitter-square"></i>
+        <i class="fab fa-instagram-square"></i>
+      </div>
+    </div>   
   </div>
-
   <footer>
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 

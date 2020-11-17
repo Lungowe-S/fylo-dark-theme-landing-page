@@ -1,0 +1,38 @@
+:root {
+  --intro-email-bg: hsl(217, 28%, 15%);
+  --main-bg: hsl(218, 28%, 13%);
+  --footer-bg: hsl(216, 53%, 9);
+  --testimonials-bg: hsl(219, 30%, 18%);
+}
+
+html {
+  font-size: 125%;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.4;
+}
+
+body {
+  padding-top: 2em;
+}
+
+.main-wrapper {
+  max-width: 63em;
+  margin: auto;
+}
+
+/** Header Styles **/
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-wrapper {
+  display: flex;
+}
+
+.nav-item a {
+  display: block;
+  padding: 0.8em 1.5em;
+  text-decoration: none;
+}
