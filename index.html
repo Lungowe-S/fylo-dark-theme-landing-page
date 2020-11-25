@@ -8,8 +8,9 @@
   
   <title>Frontend Mentor | Fylo landing page with dark theme and features grid</title>
   
-  <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="css/brands.css" /> 
   <link rel="stylesheet" href="css/all.css" />
@@ -41,7 +42,7 @@
     <div class="hero-area">
       <img src="images/illustration-intro.png" alt="illustration intro" class="hero-area_image" />
       <h1>All your files in one secure location, accessible anywhere.</h1>
-      <p>Fylo stores all your most important files in one secure location. Access them wherever you need, share and collaborate with friends, family and co-workers.</p>
+      <p class="hero-area_content">Fylo stores all your most important files in one secure location. Access them wherever you need, share and collaborate with friends, family and co-workers.</p>
       <button class="hero-area_button">Get started</button>
     </div>
 
@@ -73,17 +74,17 @@
         <h2>Stay productive wherever you are</h2>
         <p>Never let location be an issue when accessing your files. Fylo has you covered for all your storage needs.</p>
         <p>Securely share files and folders with friends, family and colleagues for live collaboration. No email attachments required.</p>
-        <p><a href="#">See how Fylo works<span><img src="images/icon-arrow.svg" alt="icon-arrow" /></span></a></p>
+        <span><a href="#">See how Fylo works<img src="images/icon-arrow.svg" alt="icon-arrow" /></a></span>
       </div>
     </div>
 
     <div class="app-reviews">
-      <img src="images/bg-quotes.png" alt="bg-quotes" />
+      <img src="images/bg-quotes.png" alt="bg-quotes" class="app-reviews_image" />
       <div class="app-user-review">
         <p>Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.</p>
-        <div class="app-user_profile">
-          <img src="images/profile-1.jpg" alt="first profile" />
-          <div class="app-user_bio">
+        <div class="app-user-profile">
+          <img src="images/profile-1.jpg" alt="first profile image" class="app-user-profile_img" />
+          <div class="app-user-bio">
             <p>Satish Patel</p>
             <span>Founder & CEO, Huddle</span>
           </div>
@@ -91,9 +92,9 @@
       </div>
       <div class="app-user-review">
         <p>Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.</p>
-        <div class="app-user_profile">
-          <img src="images/profile-2.jpg" alt="second profile" />
-          <div class="app-user_bio">
+        <div class="app-user-profile">
+          <img src="images/profile-2.jpg" alt="second profile image" class="app-user-profile_img" />
+          <div class="app-user-bio">
             <p>Bruce McKenzie</p>
             <span>Founder & CEO, Huddle</span>
           </div>
@@ -101,9 +102,9 @@
       </div>
       <div class="app-user-review">
         <p>Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.</p>
-        <div class="app-user_profile">
-          <img src="images/profile-3.jpg" alt="third profile" />
-          <div class="app-user_bio">
+        <div class="app-user-profile">
+          <img src="images/profile-3.jpg" alt="third profile image" class="app-user-profile_img" />
+          <div class="app-user-bio">
             <p>Iva Boyd</p>
             <span>Founder & CEO, Huddle</span>
           </div>
@@ -114,15 +115,15 @@
     <div class="sign-up-form">
       <h3>Get early access today</h3>
       <p>It only takes a few minutes to sign up and our free starter tier is extremely generous. If you have any questions, our support team would be happy to help you.</p>
-      <form>
-        <input type="email" name="email" size="30" value="email@example.com" />
-        <input type="submit" name="submit" value="Get started for free" />
+      <form class="form">
+        <input type="email" name="email" size="30" placeholder="email@example.com" class="form_email" />
+        <input type="submit" name="submit" value="Get started for free" class="form_submit" />
       </form>
     </div>
 
     <div class="footer-area">
       <div class="footer-content">
-        <img src="images/logo.svg" alt="logo" />
+        <img src="images/logo.svg" alt="logo" class="brand" />
         <div class="footer-content_location">
           <img src="images/icon-location.svg" alt="location" />
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore magna aliqua</p>
