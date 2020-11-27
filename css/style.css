@@ -74,7 +74,7 @@ h1 {
   padding-top: 1.5em;
   color: var(--white);
   font-size: 1em;
-  padding-bottom: 1.2em;
+  padding-bottom: 1.4em;
 }
 
 .hero-area_button {
@@ -85,4 +85,41 @@ h1 {
   font-family: "Raleway", sans-serif;
   text-transform: capitalize;
   letter-spacing: 0.5px;
+  background: linear-gradient(to right, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+  border: none;
+  font-weight: 700;
+}
+
+/** Content Styles **/
+
+.content {
+  max-width: 45em;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(390px, 1fr));
+  grid-gap: 6em;
+  padding-top: 7em;
+}
+
+.content-app_img {
+  padding-bottom: 1em;
+}
+
+.content-app_title {
+  font-size: 0.96em;
+  padding-bottom: 0.4em;
+  color: var(--white);
+}
+
+.content-app-features {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+
+.content-app-features p {
+  text-align: center;
+  width: 94%;
+  font-size: 0.68em;
+  color: var(--white);
 }
