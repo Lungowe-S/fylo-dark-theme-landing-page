@@ -123,3 +123,65 @@ h1 {
   font-size: 0.68em;
   color: var(--white);
 }
+
+/** Productivity area styles **/
+
+.app-productivity {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 6em;
+  max-width: 1150px;
+  margin: auto;
+}
+
+.app-productivity_img {
+  width: 48%;
+}
+
+.app-productivity_content {
+  padding-left: 3.1em;
+}
+
+.app-productivity_title {
+  width: 60%;
+  font-family: "Raleway", sans-serif;
+  line-height: 1.2;
+  color: var(--white);
+  font-size: 1.9em;
+  padding-bottom: 0.5em;
+  margin-top: 1.3em;
+}
+
+.app-productivity_content p {
+  font-size: 0.75em;
+  color: var(--white);
+}
+
+.app-productivity_content p:nth-of-type(1) {
+  padding-bottom: 0.9em;
+}
+
+.app-productivity_content p:nth-of-type(2) {
+  padding-bottom: 1em;
+}
+
+.app-productivity_link a {
+  font-size: 0.75em;
+  text-decoration: none;
+  color: hsl(176, 68%, 64%);
+}
+.link-img {
+  display: inline-block;
+  position: relative;
+  bottom: -3px;
+  padding-left: 0.5em;
+}
+
+.app-productivity_link::after {
+  content: " ";
+  padding-bottom: 3px;
+  border-bottom: 1px solid hsl(176, 68%, 64%);
+  display: block;
+  width: 30%;
+}
