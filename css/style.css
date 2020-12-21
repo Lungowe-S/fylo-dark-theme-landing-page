@@ -197,18 +197,23 @@ h1 {
 }
 
 .app-user-review {
-  padding-top: 2.5em;
+  padding-top: 2em;
   padding-left: 1.4em;
   padding-right: 1.4em;
-  padding-bottom: 1em;
+  padding-bottom: 1.3em;
   background-color: var(--testimonials-bg);
   border-radius: 5px;
   box-shadow: 8px 8px 6px hsl(217, 28%, 14%), 10px 10px 10px hsl(218, 28%, 9%);
 }
 
-.app-user-review p {
-  font-size: 0.71em;
+.app-review,
+.app-user-name,
+.app-user-bio {
   color: var(--white);
+}
+
+.app-review {
+  font-size: 0.7em;
 }
 
 .app-user-profile {
@@ -220,7 +225,7 @@ h1 {
 
 .app-user-profile img {
   border-radius: 50%;
-  width: 12%;
+  width: 10%;
 }
 
 .app-user-bio {
@@ -231,11 +236,11 @@ h1 {
 
 .app-user-bio span {
   font-size: 10px;
-  color: var(--white);
 }
 
 .app-user-name {
   font-weight: 600;
+  font-size: 0.62em;
 }
 
 .app-review_quotes {
