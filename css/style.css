@@ -41,6 +41,8 @@ h1,
 .header__icon:focus,
 .footer__email a:focus,
 .footer__mobile a:focus,
+.footer__links a:focus,
+.social--links a:focus,
 .attribution a:focus {
   outline: 3px dotted hsl(172, 68%, 64%);
 }
@@ -142,15 +144,6 @@ h1 {
 
 /** Content Styles **/
 
-/* .curvy-bg {
-  background-image: url("../images/bg-curvy-desktop.svg");
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  bottom: -800px;
-  background-repeat: no-repeat;
-} */
-
 .app-area {
   position: relative;
   background-color: var(--main-bg);
@@ -229,11 +222,16 @@ h1 {
   padding-bottom: 1em;
 }
 
-.productivity__link a {
+.productivity__copy a {
   font-size: 0.75em;
   text-decoration: none;
   color: hsl(176, 68%, 64%);
 }
+
+.productivity__copy a:hover {
+  font-weight: bold;
+}
+
 .link-img {
   display: inline-block;
   position: relative;
@@ -382,17 +380,24 @@ h1 {
   background: linear-gradient(to right, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
   font-weight: 700;
   outline: none;
-  /* transition: all 0.4s ease 0s; */
 }
 
 .form__button:hover,
 .hero__button:hover {
-  /* border-radius: 6px; */
   background: #ed3330;
   box-shadow: 5px 40px -10px rgba(0, 0, 0, 0.57);
   letter-spacing: 1px;
   transform: scale(1.05);
-  /* transition: all 0.4s ease 0s; */
+}
+
+.form__button:focus,
+.hero__button:focus {
+  background: #5f82f1;
+  outline: none;
+  box-shadow: 0 0 0 2px hsla(210, 52%, 42%, 1),
+    0 0 0 6px hsla(200, 72%, 83%, 0.75);
+  color: rgb(15, 10, 10);
+  font-weight: bolder;
 }
 
 /** Footer Styles **/
@@ -733,6 +738,10 @@ h1 {
 
   .hero__copy {
     font-size: 0.7em;
+  }
+
+  .hero {
+    background-image: url("../images/bg-curvy-mobile.svg");
   }
 
   /* App features styles */
